@@ -11,3 +11,50 @@
  *= require_self
  *= require_tree .
  */
+
+/*
+ * Coming soon styles
+ */
+#coming_soon {
+    text-align: center;
+    padding-top: 20px;
+}
+
+body {
+    font-family: "Helvetica Neue", "Arial", sans-serif;
+}
+h1, h2, h3, h4 {
+    color: #cf2e45;
+}
+p {
+    color: #333;
+}
+a {
+    color: #8c202f;
+    text-decoration: none;
+}
+a:hover {
+    color: #cf2e45;
+    text-decoration: underline;
+}
+.main_body {
+    background: url("/images/pagebg.png") repeat-x;
+}
+.body_wrapper {
+    margin: 0 auto;
+    width: 1060px;
+}
+
+#header h1 {
+    margin: 40px auto 0 auto;
+    padding: 0;
+    text-align: center;
+    width: 355px;
+}
+#header h1 a {
+    display: block;
+    width: 355px;
+    height: 127px;
+    background: url("/images/eb_logo.png") no-repeat;
+    text-indent: -9999px;
+}
